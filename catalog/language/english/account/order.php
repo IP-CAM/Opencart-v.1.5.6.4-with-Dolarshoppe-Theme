@@ -101,8 +101,3 @@ $_['column_status']         = 'Status';
 
 
 $_['column_comment']        = 'Comment';
-
-
-?>
-
-

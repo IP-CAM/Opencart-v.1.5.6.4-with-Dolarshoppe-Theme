@@ -299,8 +299,3 @@ class ModelCheckoutCoupon extends Model {
 
 
 }
-
-
-?>
-
-

@@ -500,8 +500,3 @@ class ControllerPaymentPayMate extends Controller {
 
 
 }
-
-
-?>
-
-

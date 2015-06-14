@@ -122,8 +122,3 @@ class ModelPaymentPayMate extends Model {
 
 
 }
-
-
-?>
-
-

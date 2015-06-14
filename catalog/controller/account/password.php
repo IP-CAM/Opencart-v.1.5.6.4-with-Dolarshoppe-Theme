@@ -347,8 +347,3 @@ class ControllerAccountPassword extends Controller {
 
 
 }
-
-
-?>
-
-

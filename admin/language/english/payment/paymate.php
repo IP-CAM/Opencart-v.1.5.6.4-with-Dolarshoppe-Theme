@@ -63,7 +63,3 @@ $_['error_username']     = 'Paymate Username required!';
 
 $_['error_password']     = 'Password required!';
 
-
-?>
-
-

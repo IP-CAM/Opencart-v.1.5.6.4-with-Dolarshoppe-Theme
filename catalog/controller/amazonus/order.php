@@ -327,4 +327,3 @@ class ControllerAmazonusOrder extends Controller {
 		$this->response->setOutput('Ok');
 	}
 }
-?>
