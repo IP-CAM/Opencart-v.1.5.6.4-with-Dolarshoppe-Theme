@@ -92,8 +92,3 @@ class ModelAccountDownload extends Model {
 
 
 }
-
-
-?>
-
-

@@ -57,7 +57,3 @@ $_['error_name']        = 'User Group Name must be between 3 and 64 characters!'
 
 $_['error_user']        = 'Warning: This user group cannot be deleted as it is currently assigned to %s users!';
 
-
-?>
-
-

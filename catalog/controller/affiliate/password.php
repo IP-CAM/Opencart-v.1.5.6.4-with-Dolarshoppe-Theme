@@ -347,8 +347,3 @@ class ControllerAffiliatePassword extends Controller {
 
 
 }
-
-
-?>
-
-

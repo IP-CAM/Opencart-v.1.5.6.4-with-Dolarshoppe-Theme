@@ -77,8 +77,3 @@ $_['error_description'] = 'Description must be between 3 and 255 characters!';
 
 
 $_['error_product']     = 'Warning: This tax class cannot be deleted as it is currently assigned to %s products!';
-
-
-?>
-
-

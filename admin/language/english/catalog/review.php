@@ -86,8 +86,3 @@ $_['error_text']        = 'Review Text must be at least 1 character!';
 
 
 $_['error_rating']      = 'Review rating required!';
-
-
-?>
-
-

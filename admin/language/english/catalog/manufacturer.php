@@ -86,8 +86,3 @@ $_['error_name']         = 'Manufacturer Name must be between 3 and 64 character
 
 
 $_['error_product']      = 'Warning: This manufacturer cannot be deleted as it is currently assigned to %s products!';
-
-
-?>
-
-

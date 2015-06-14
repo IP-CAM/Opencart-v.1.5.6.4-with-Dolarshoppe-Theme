@@ -620,8 +620,3 @@ class ControllerInformationContact extends Controller {
 
 
 }
-
-
-?>
-
-

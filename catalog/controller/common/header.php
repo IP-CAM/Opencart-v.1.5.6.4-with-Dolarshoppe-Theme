@@ -452,8 +452,3 @@ class ControllerCommonHeader extends Controller {
 
 
 }
-
-
-?>
-
-

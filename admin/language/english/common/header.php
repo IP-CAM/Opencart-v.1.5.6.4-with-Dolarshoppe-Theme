@@ -290,8 +290,3 @@ $_['text_paypal_search']               = 'Search';
 
 
 $_['text_recurring_profile']           = 'Recurring Profiles';
-
-
-?>
-
-

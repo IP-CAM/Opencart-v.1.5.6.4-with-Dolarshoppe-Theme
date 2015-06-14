@@ -125,8 +125,3 @@ $_['error_amount']      = 'Amount must be greater than or equal to 1!';
 
 
 $_['error_order']       = 'Warning: This voucher cannot be deleted as it is part of an <a href="%s">order</a>!';
-
-
-?>
-
-

@@ -86,8 +86,3 @@ $_['error_name']           = 'Tax Name must be between 3 and 32 characters!';
 
 
 $_['error_rate']           = 'Tax Rate required!';
-
-
-?>
-
-
