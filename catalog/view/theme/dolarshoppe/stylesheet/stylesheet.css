@@ -5,7 +5,7 @@ html {
 }
 body {
     background: rgba(255, 193, 129, 0.4);
-    background-image: url('../image/pattern-5y3q.png');
+    background-image: url('../image/pattern-87d59a7f.png');
     position: relative;
     color: rgb(122,122,122);
     font-family: 'Droid Sans',Arial, Helvetica, sans-serif;
@@ -815,7 +815,7 @@ a.button:hover, input.button:hover {
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;  
+    transition: all 0.15s ease-in-out;
 }
 
 .product-grid > div {
@@ -832,7 +832,7 @@ a.button:hover, input.button:hover {
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;  
+    transition: all 0.15s ease-in-out;
 }
 
 .product-grid > div:last-child {
@@ -844,7 +844,7 @@ a.button:hover, input.button:hover {
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;  
+    transition: all 0.15s ease-in-out;
 
 }
 
@@ -869,7 +869,7 @@ a.button:hover, input.button:hover {
     float: left;
     clear: left;
     margin-right: 10px
-    
+
 }
 
 #column-left .box-product > div,#column-right .box-product > div {
@@ -883,7 +883,7 @@ a.button:hover, input.button:hover {
 }
 
 .box-product .image img {
-    padding: 3px;   
+    padding: 3px;
 }
 .box-product .name a {
     text-decoration: none;
@@ -918,7 +918,7 @@ a.button:hover, input.button:hover {
 }
 
 .box-category > ul > li {
-    padding: 8px 8px 8px 10px;  
+    padding: 8px 8px 8px 10px;
     border-bottom: 1px solid #fff;
 }
 .box-category > ul > li + li {
@@ -958,7 +958,7 @@ a.button:hover, input.button:hover {
     color: #666;
     font-size: 11px;
     padding: 6px 10px;
-    
+
 }
 .box-category > ul > li ul > li > a.active {
     font-weight: bold;
@@ -1001,7 +1001,7 @@ h2#review-title {
     margin-bottom: 20px;
 }
 .category-info .image {
-    float: left;    
+    float: left;
     margin-right: 15px;
     padding: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,.3);
@@ -1081,7 +1081,7 @@ h2#review-title {
     color: #ffffff;
     line-height: 30px;
 }
-.product-compare {  
+.product-compare {
     float: left;
     line-height: 30px;
 }
@@ -1094,7 +1094,7 @@ h2#review-title {
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out; 
+    transition: all 0.15s ease-in-out;
 }
 
 .product-list > div {
@@ -1102,7 +1102,7 @@ h2#review-title {
     margin-bottom: 15px;
     padding-left: 5px;
     padding-bottom: 20px;
-    padding-top: 20px;  
+    padding-top: 20px;
 }
 .product-list .right {
     float: right;
@@ -1121,12 +1121,12 @@ h2#review-title {
     border-radius: 5px;
 }
 .product-list .image img {
-    
+
 }
 .product-list .name {
     margin-bottom: 15px;
 }
-.product-list .name a {     
+.product-list .name a {
     text-decoration: none;
     font-size: 13px;
     margin-bottom: 15px;
@@ -1187,10 +1187,10 @@ h2#review-title {
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out; 
+    transition: all 0.15s ease-in-out;
 }
 .product-grid > div {
-    
+
 }
 #column-left + #column-right + #content .product-grid > div {
     width: 125px;
@@ -1837,7 +1837,7 @@ h2#review-title {
     float: left;
     width: 48%;
 }
-/* footer */ 
+/* footer */
 #footer {
     clear: both;
     content: ' ';
@@ -1858,7 +1858,7 @@ h2#review-title {
     display: block;
     float: left;
     min-height: 100px;
-    width: 25%;    
+    width: 25%;
 }
 #footer .column ul {
     margin-top: 0px;
@@ -1915,7 +1915,7 @@ b {
     padding-left: 20px;
 }
 
-.content ul li { 
+.content ul li {
     list-style: square;
     padding: 2px 0;
 }
@@ -1963,7 +1963,7 @@ a.list {
     width: 24px;
     text-indent: -9999px;
     margin-right: 5px;
-    
+
 }
 
 a.display-list,a.display-grid {
@@ -1971,7 +1971,7 @@ a.display-list,a.display-grid {
     -webkit-transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
-    transition: all 0.45s ease-in-out;  
+    transition: all 0.45s ease-in-out;
 }
 
 a.listdisabled {
