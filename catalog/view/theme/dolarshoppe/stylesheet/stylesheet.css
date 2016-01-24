@@ -5,7 +5,7 @@ html {
 }
 body {
     background: rgba(255, 193, 129, 0.4);
-    background-image: url('../image/pattern-87d59a7f.png');
+    background-image: url('../image/pattern-1ae613dc.png');
     position: relative;
     color: rgb(122,122,122);
     font-family: 'Droid Sans',Arial, Helvetica, sans-serif;
@@ -232,7 +232,7 @@ label {
     text-decoration: none;
 }
 #header #cart .heading a span {
-    background: #f7eecc url('../image/arrow-down.png') 100% 45% no-repeat;
+    background: transparent url('../image/arrow-down.png') 100% 45% no-repeat;
     padding-right: 15px;
 }
 #header #cart .content {
@@ -313,13 +313,13 @@ label {
     z-index: 15;
     position: relative;
     float: left;
-    background: rgb(234, 224, 185);
     padding: 5px;
 }
 #header .button-search {
     position: absolute;
     right: 0px;
-    border-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     margin-left: 10px;
     margin-right: 5px;
     width: 38px;
@@ -329,25 +329,18 @@ label {
     cursor: pointer;
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #ab8f4e;
-    background-image: -moz-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ab8f4e), to(#8d7a37));
-    background-image: -webkit-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: -o-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: linear-gradient(to bottom, #ab8f4e, #8d7a37);
-    background-repeat: repeat-x;
-    border-color: #8d7a37 #8d7a37 #9b9c3c;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+    background-color: #666666;
+    border-color: #666666;
 }
 #header #search input {
     background: #FFF;
     padding: 1px 1px 1px 33px;
-    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     padding: 0 5px;
     height: 23px;
     width: 285px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #666666;
     color: #666;
 }
 #header #welcome {
@@ -383,7 +376,7 @@ label {
 }
 /* menu */
 #menu {
-    background: #000;
+    background: #666666;
     height: 48px;
     padding: 0px;
     margin-bottom: 20px;
@@ -434,6 +427,7 @@ label {
     -moz-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
+    margin-top: -5px;
 }
 #menu > ul > li > div > ul {
     display: table-cell;
@@ -461,7 +455,7 @@ label {
 .breadcrumb {
     color: #fff;
     margin-bottom: 20px;
-    background: rgb(234, 224, 185);
+    background: #f5f5f5;
     padding: 14px;
     border-bottom:1px dotted rgb(223, 223, 223);
 }
@@ -653,37 +647,20 @@ a.button,#cart .checkout a {
     color: #fff;
     cursor: pointer;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #ab8f4e;
-    background-image: -moz-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ab8f4e), to(#8d7a37));
-    background-image: -webkit-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: -o-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: linear-gradient(to bottom, #ab8f4e, #8d7a37);
-    background-repeat: repeat-x;
-    border-color: #8d7a37 #8d7a37 #9b9c3c;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-color: #666666;
+    border-color: #666666;
 }
 input.button {
     margin: 0;
     border: 0;
+    border-radius: 3px;
     height: 28px;
     padding: 5px 12px 5px 12px;
     color: #fff;
     cursor: pointer;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #ab8f4e;
-    background-image: -moz-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ab8f4e), to(#8d7a37));
-    background-image: -webkit-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: -o-linear-gradient(top, #ab8f4e, #8d7a37);
-    background-image: linear-gradient(to bottom, #ab8f4e, #8d7a37);
-    background-repeat: repeat-x;
-    border-color: #8d7a37 #8d7a37 #9b9c3c;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-color: #666666;
+    border-color: #666666;
 }
 
 #column-left input.button,#column-right input.button {
@@ -705,7 +682,7 @@ input.button {
 a.button:hover, input.button:hover {
 }
 .buttons {
-    background: rgb(234, 224, 185);
+    background: #f5f5f5;
     border: 1px solid #EEEEEE;
     overflow: auto;
     padding: 6px;
@@ -763,8 +740,8 @@ a.button:hover, input.button:hover {
     margin-bottom: 20px;
 }
 .box .box-heading {
-    border: 1px solid #ede4c7;
-    background: rgb(234, 224, 185);
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
     padding: 12px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 14px;
@@ -774,7 +751,7 @@ a.button:hover, input.button:hover {
     color: rgb(19, 19, 19);
 }
 .box .box-content {
-    border:1px solid #ede4c7;
+    border:1px solid #f5f5f5;
     background: #fff;
     padding: 10px;
 }
@@ -1024,7 +1001,7 @@ h2#review-title {
 .category-list ul li {
     list-style: none;
     padding: 5px;
-    background: #f4eedb;
+    background: #f5f5f5;
     display: inline-block;
 }
 /* manufacturer */
@@ -1055,7 +1032,8 @@ h2#review-title {
 /* product */
 .product-filter {
     overflow: auto;
-    background: #ab8f4e;
+    border-top: 1px solid #eeeeee;
+    background: #f5f5f5;
     padding: 5px;
     margin-bottom: 10px;
     color: #ffffff;
@@ -1063,22 +1041,22 @@ h2#review-title {
 .product-filter .display {
     margin-right: 15px;
     float: left;
-    color: #ffffff;
+    color: #666666;
     line-height: 30px;
 }
 .product-filter .display a {
     font-weight: bold;
-    color: #ffffff;
+    color: #ff9900;
 }
 .product-filter .sort {
     float: right;
-    color: #ffffff;
+    color: #666666;
     line-height: 30px;
 }
 .product-filter .limit {
     margin-left: 15px;
     float: right;
-    color: #ffffff;
+    color: #666666;
     line-height: 30px;
 }
 .product-compare {
@@ -1087,7 +1065,7 @@ h2#review-title {
 }
 .product-compare a {
     text-decoration: none;
-    color: #ab8f4e;
+    color: #ff9900;
 }
 
 .product-list {
@@ -1688,11 +1666,11 @@ h2#review-title {
     padding: 7px;
 }
 .cart-info thead td {
-    color: #222;
+    color: #fff;
     font-weight: bold;
-    background: rgb(234, 224, 185);
+    background: #666666;
     padding: 10px;
-    border-bottom: 1px solid #DDDDDD;
+    border-bottom: 1px solid #f5f5f5;
 }
 .cart-info thead .image {
     text-align: center;
@@ -1732,11 +1710,11 @@ h2#review-title {
     display: none;
 }
 .cart-total {
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #666666;
     overflow: auto;
     padding-top: 8px;
     margin-bottom: 15px;
-    background-color: #f7eecc;
+    background-color: #f5f5f5;
 }
 .cart-total table {
     float: right;
@@ -1747,8 +1725,8 @@ h2#review-title {
 }
 /* checkout */
 .checkout-heading {
-    background: rgb(234, 224, 185);
-    border: 1px solid #DBDEE1;
+    background: #f5f5f5;
+    border: 1px solid #eeeeee;
     padding: 8px;
     font-weight: bold;
     font-size: 13px;
@@ -1844,9 +1822,9 @@ h2#review-title {
     display: table;
     overflow: auto;
     min-height: 100px;
-    padding: 20px;
-    border-top: 2px solid #8d7a37;
-    background: #f7eecc;
+    border-top: 2px solid #666666;
+    background: #f5f5f5;
+    width: 100%;
 }
 #footer h3 {
     font-size: 14px;
@@ -1858,7 +1836,15 @@ h2#review-title {
     display: block;
     float: left;
     min-height: 100px;
-    width: 25%;
+    padding: 20px 0;
+    width: 20%;
+}
+#footer .column:first-child {
+    padding-left: 20px;
+}
+#footer .column:last-child {
+    float: right;
+    padding-right: 20px;
 }
 #footer .column ul {
     margin-top: 0px;
@@ -1878,7 +1864,7 @@ h2#review-title {
     margin-top: 5px;
     text-align: right;
     clear: both;
-    background: #8d7a37;
+    background: #666666;
     font-size: 10px;
     padding: 10px;
 }
