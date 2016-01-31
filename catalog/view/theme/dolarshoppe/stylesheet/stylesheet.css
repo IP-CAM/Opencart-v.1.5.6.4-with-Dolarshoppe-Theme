@@ -21,7 +21,7 @@ body:before {
     z-index: -999;
 }
 body, td, th, input, textarea, select, a {
-    font-size: 11px;
+    font-size: 14px;
 }
 h1, .welcome {
     margin-top: 0px;
@@ -154,7 +154,7 @@ label {
 }
 
 .top-bar {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 0 5px 0;
     border-bottom: 1px dotted;
 }
@@ -322,7 +322,6 @@ label {
     border-bottom-right-radius: 3px;
     margin-left: 10px;
     margin-right: 5px;
-    width: 38px;
     font-weight: bold;
     padding: 5px 10px;
     height: 15px;
@@ -351,7 +350,7 @@ label {
     margin-top: 5px;
 }
 #header .links {
-    font-size: 10px;
+    font-size: 12px;
     padding-right: 10px;
     float: left;
     margin-right: 40px;
@@ -362,7 +361,7 @@ label {
     padding: 0px 0px 0px 7px;
     color: #38B0E3;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 5px;
 }
 #header .links a + a {
@@ -371,12 +370,12 @@ label {
 }
 
 .top-bar #welcome a {
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
 }
 /* menu */
 #menu {
-    background: #666666;
+    background: #ff9900;
     height: 48px;
     padding: 0px;
     margin-bottom: 20px;
@@ -395,7 +394,7 @@ label {
 #menu > ul > li:hover {
 }
 #menu > ul > li > a {
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
     line-height: 14px;
     text-decoration: none;
@@ -453,7 +452,7 @@ label {
     text-transform: uppercase
 }
 .breadcrumb {
-    color: #fff;
+    color: #555;
     margin-bottom: 20px;
     background: #f5f5f5;
     padding: 14px;
@@ -632,7 +631,7 @@ a.button {
     color: #FFFFFF;
     line-height: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     -webkit-box-shadow: 0 0 2px #DDDDDD;
     -moz-box-shadow: 0 0 2px #DDDDDD;
     box-shadow: 0 0 2px #DDDDDD;
@@ -904,7 +903,7 @@ a.button:hover, input.button:hover {
 .box-category > ul > li > a {
     text-decoration: none;
     color: #666;
-    font-size: 11px;
+    font-size: 14px;
 }
 .box-category > ul > li > a:hover {
     color: #38B0E3;
@@ -933,7 +932,7 @@ a.button:hover, input.button:hover {
     text-decoration: none;
     display: block;
     color: #666;
-    font-size: 11px;
+    font-size: 12px;
     padding: 6px 10px;
 
 }
@@ -1132,7 +1131,7 @@ h2#review-title {
     font-weight: bold;
 }
 .product-list .price-tax {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: normal;
     color: #BBBBBB;
 }
@@ -1342,7 +1341,7 @@ h2#review-title {
 }
 .product-info .cart .minimum {
     padding-top: 5px;
-    font-size: 11px;
+    font-size: 12px;
     color: #999;
     clear: both;
 }
@@ -1864,7 +1863,7 @@ h2#review-title {
     margin-top: 5px;
     text-align: right;
     clear: both;
-    background: #666666;
+    background: #ff9900;
     font-size: 10px;
     padding: 10px;
 }
